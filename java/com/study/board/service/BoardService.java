@@ -8,8 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class BoardService {
-    
+public class BoardService {   
     @Autowired // 자동으로 객체 생성
     private BoardRepository boardRepository;
 
@@ -32,5 +31,4 @@ public class BoardService {
     public void boardDelete(Integer id) {
         boardRepository.deleteById(id);
     }
-    
 }
