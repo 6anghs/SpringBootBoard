@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class BoardService {
-
     @Autowired // 자동으로 객체 생성
     private BoardRepository boardRepository;
 
